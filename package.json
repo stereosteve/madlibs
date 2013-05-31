@@ -1,0 +1,27 @@
+{
+  "name": "madlibs",
+  "version": "0.0.0",
+  "description": "string based fake data",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "faker",
+    "fake",
+    "generate",
+    "fixture",
+    "dictionary",
+    "dict"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stereosteve/madlibs.git"
+  },
+  "author": "Steve Perkins",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.4.4"
+  },
+  "devDependencies": {}
+}
