@@ -40,11 +40,11 @@ exports.streetName = function() {
 }
 
 exports.address = function() {
-  return _.random(1200) + ' ' + exports.streetName()
+  return _.random(1, 1200) + ' ' + exports.streetName()
 }
 
 exports.address2 = function() {
-  return heads() ? 'Apt.' : 'Suite' + ' ' + _.random(999)
+  return pick(['Apt.', 'Suite']) + ' ' + _.random(1, 999)
 }
 
 exports.city = function() {
