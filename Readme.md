@@ -5,6 +5,23 @@ Generate random words and phrases: names, places, numbers, etc.
 This is a rewrite of Faker.js with a saner API and simpler implementation.
 It also incorporates new word lists for nouns, verbs, etc.
 
+## Installation
+
+```
+npm install madlibs
+```
+
+## Usage
+
+```js
+var madlibs = require('madlibs')
+madlibs.noun()
+madlibs.verb()
+madlibs.fullName()
+madlibs.email()
+madlibs.address()
+```
+
 ## Test
 
 To see example output, run `npm test`:
@@ -55,6 +72,7 @@ To see example output, run `npm test`:
 ## Roadmap
 
 * Work in browser via component.js
+* Generate full example objects: user, company, etc.
 * Generate words, sentances, paragraphs (a-la faker)
 * Simple templating / interpolation, so it can actually be used for MadLibs
 
